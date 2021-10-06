@@ -29,7 +29,7 @@ nav{
 }
 .main{
   width: 100%;
-  height: calc(100% - 60px);
+  height: 1020px;
   background:url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.png) center/cover no-repeat;
 }
 .title_conteiner{
@@ -62,16 +62,16 @@ nav{
   color: #263244;
   text-align: center;
   font-size: 40px;
-  margin:100px 0px 35px 0px;
   background: url(../img/stick.png) no-repeat bottom/75px ;
-  padding-bottom: 30px;
+  padding:100px 0px 30px 0px;
+  weight:bold;
 
 }
 
 .myinf{
   background: url(../img/bg2/png) 75px 5px;
   width: 100%;
-  height: calc(100% - 60px);
+  height: 715px;
 }
 .myinf_conteiner{
   float: left;
@@ -95,34 +95,48 @@ nav{
 }
 .services{
   width: 100%;
-  height: calc(100% - 60px);
+  height: 515px;
   background: url(../img/bg3.png) center/cover no-repeat;
 }
-.services_conteiner icon{
+.icon{
+  float: left;
+  width: 215px;
+  height: 160px;
+  margin-left: 80px;
+  padding: 90px 10%;
+
 
 
 }
-.services p{
-
+.icon img{
+  padding:0px 95px;
 
 }
-.services h3{
+.icon p{
+  width: 215px;
+  height: 160px;
+  text-align: center;
+
+}
+.icon h3{
+  padding:40px 30px 20px 30px;
+
   font-size: 30px;
   color: #cf7600;
+  white-space: nowrap;
+  text-align: center;
 }
 
 .cases{
   width: 100%;
-  height: calc(100% - 60px);
+  height: 1175px;
 
 }
 .cases_container>p{
   text-align: center;
   margin: 35px 0px;
 }
-.cases_inf span{
- padding:385px;
-}
+
 .cases_container h3{
   padding-left: 385px;
   padding-top: 18px;
@@ -131,11 +145,31 @@ nav{
   color: #384354;
   text-transform: uppercase;
 }
+.cases_inf{
+  float: left;
+}
+.project_inf{
+  width: 215px;
+  height: 100px;
+
+}
+.project_inf p{
+    padding-left: 390px;
+    text-align:center;
+}
+.project_name{
+  height: 95px;
+  width: 855px
+  padding-bottom:  200px;
+}
 .project_name h3{
   margin-left: 670px;
+
 }
-.project_name span{
-  padding-left: 670px;
+.project_name p{
+  margin-left: 1050px;
+  text-align: left;
+
 }
 .cases_container input{
  border-radius: 5px;
@@ -147,7 +181,7 @@ nav{
 }
 .price{
   width: 100%;
-  height: calc(100% - 60px);
+  height: 835px;
 }
 .money h2{
   color: #263244;
@@ -179,32 +213,54 @@ nav{
   color: #1c2534;
   text-transform: uppercase;
   font-weight: 300;
-  margin-top: 15px;
-}
-.price>h4{
-  background: url(../img/line.png) no-repeat top;
 
+}
+.line{
+  background: url(../img/line.png) no-repeat top/900px;
 }
 .stats{
   width: 100%;
-  height: calc(100% - 60px);
+  height: 500px;
   background: url(../img/bg5.png) no-repeat center/cover;
+}
+.icon_2{
+  float: left;
+  width: 175px;
+  height: 160px;
+  margin-left: 80px;
+  padding: 90px 10%;
+}
+.icon_2 img{
+  padding:0px 60px;
+}
+.icon_2 p{
+  width: 175px;
+  height: 160px;
+ text-align: center;
+}
+.icon_2 h3{
+  margin:30px 70px;
+  weight:bold;
+  font-size: 30px;
+  color: #000;
+
 }
 .reviews{
   width: 100%;
-  height: calc(100% - 60px);
+  height: 595px;
 
 }
 .reviews_conteiner p{
-  margin: 32px 615px;
+  padding: 32px 615px;
   text-align: center;
 }
 .reviews_conteiner img{
+  margin-top: 60px;
   padding-left: 900px;
 }
 .contacts{
   width: 100%;
-  height: calc(100% - 60px);
+  height: 810px;
   background: url(../img/bg6.png) center/cover no-repeat;
 }
 .contacts_conteiner h2{
@@ -220,7 +276,30 @@ nav{
 }
 .contacts_conteiner h3{
   color: #fff;
+  text-align: center;
+  margin: 40px 0px;
+  font-size: 30px;
+  text-transform: uppercase;
 }
-.contacts_conteiner form{
+
+.mycontacts{
+  float: left;
+  width: 145px;
+  height: 80px;
+  margin-left: 100px
+
+}
+.mycontacts p{
+  text-align: center;
+}
+.mycontacts img{
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+.form{
   margin-left: 595px;
+
+}
+.contacts_inf{
+  margin: 45px 0px 60px 615px;
 }
